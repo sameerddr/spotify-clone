@@ -194,10 +194,6 @@ h2 {
 /* ----------------------------footer-------------------------------- */
 
 .foot {
-    /*
-
-    background-color: #191414; */
-    /* display: flex; */
     padding-top: 50px;
     padding-right: 50px;
     padding-left: 50px;
@@ -212,6 +208,7 @@ h2 {
 .item1 .logo {
     width: 180px;
     height: 100px;
+    display: inline-block;
 }
 
 .foot .first {
@@ -241,6 +238,19 @@ ul li a:hover {
 }
 
 .item5 ul li {
+    display: inline-block;
+    margin: 4px;
+    padding: 0px 8px;
+}
+
+.end {
+    /* padding-top: 70px; */
+    margin-left: 20px;
+    /* padding-top: 200px; */
+    display: inline-block;
+}
+
+.end ul p {
     display: inline-block;
     margin: 4px;
     padding: 0px 8px;
