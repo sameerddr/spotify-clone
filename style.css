@@ -244,13 +244,13 @@ ul li a:hover {
 }
 
 .end {
-    /* padding-top: 70px; */
+    padding-top: 70px;
     margin-left: 20px;
     /* padding-top: 200px; */
     display: inline-block;
 }
 
-.end ul p {
+.end p {
     display: inline-block;
     margin: 4px;
     padding: 0px 8px;
