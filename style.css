@@ -90,7 +90,8 @@
 .main2 {
     width: 100%;
     height: 1080px;
-    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    /* background-image: linear-gradient(to right, #DECBA4, #3E5151); */
+    background-color: aliceblue;
 }
 
 .box {
@@ -123,7 +124,7 @@
     padding-top: 80px;
     font-size: x-large;
     font-family: 'Patrick Hand', cursive;
-    color: white;
+    /* color: white; */
 }
 
 h2 {
@@ -191,3 +192,47 @@ h2 {
 
 
 /* ----------------------------footer-------------------------------- */
+
+.foot {
+    /* width: 100%;
+    height: 500px;
+    background-color: #191414; */
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+    color: white;
+}
+
+.item1 .logo {
+    width: 60px;
+    height: 30px;
+}
+
+.foot .first {
+    color: #2c3e50;
+    font-size: 20px;
+}
+
+ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #1DB954;
+}
+
+
+/* .list .list ul,
+li {
+    color: white;
+    list-style: none;
+}
+
+.list .list ul,
+li a {
+    color: white;
+    text-decoration: none;
+} */
