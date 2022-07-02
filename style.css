@@ -235,7 +235,12 @@ ul li a:hover {
     /* text-decoration: none; */
 }
 
-.items5 ul li {
+.item5 {
+    padding-top: 70px;
+    margin-left: 20px;
+}
+
+.item5 ul li {
     display: inline-block;
     margin: 4px;
 }
